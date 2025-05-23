@@ -3,7 +3,7 @@ import {NavLink} from "react-router-dom";
 
 export const Logo = () => {
     return (
-        <NavLink to="/home">
+        <NavLink style={{textDecoration: "none"}} to="/home">
             <StyledLogo>CinRate</StyledLogo>
         </NavLink>
     )

@@ -6,7 +6,6 @@ export const StyledLogo = styled.div`
     font-size: 42px;
     font-weight: 900;
 
-
     @media (max-width: ${({theme}) => theme.breakpoints.tablet}) {
         font-size: 30px;
         font-size: 20px;
