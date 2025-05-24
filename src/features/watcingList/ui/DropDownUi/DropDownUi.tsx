@@ -1,5 +1,5 @@
 import React from 'react';
-import { type MenuProps, Skeleton } from "antd";
+import { type MenuProps } from "antd";
 import { Dropdown, Space, Typography } from 'antd';
 import {useTranslation} from "react-i18next";
 
@@ -25,7 +25,9 @@ export const DropDownUi: React.FC = () => {
                     key={item.id}
                     img={item.backdrop_path ? `${POSTER_PATH}${item.backdrop_path}`: nonFound}
                     label={item.title}
-                    rating={item.vote_average} />
+                    rating={item.vote_average}
+                    id={item.id}
+                />
             })
         })
     }
@@ -39,7 +41,7 @@ export const DropDownUi: React.FC = () => {
                     items,
                     selectable: true,
                     defaultSelectedKeys: ['3'],
-                    style: { width: 300, minHeight: 200, backgroundColor: '#1a1a1a', padding: 8, borderRadius: 10}
+                    style: { width: 315, minHeight: 200, backgroundColor: '#1a1a1a', padding: 8, borderRadius: 10}
                 }}
             >
                 <Typography.Link>
@@ -50,9 +52,5 @@ export const DropDownUi: React.FC = () => {
                 </Typography.Link>
             </Dropdown>
         );
-    } else {
-        return (
-          <Skeleton active />
-        )
     }
 }

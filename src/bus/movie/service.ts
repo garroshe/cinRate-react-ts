@@ -55,4 +55,23 @@ export const movieService = Object.freeze({
             throw err;
         }
     },
+    mutateMovieDelete: async (id: number): Promise<IResponse> => {
+        try {
+            const response = await fetch(`http://localhost:3010/movies/${String(id)}`, {
+                method: "DELETE",
+                headers: {
+                    ...getBaseApiHeaders(),
+                },
+            });
+
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+
+            return await response.json();
+        } catch (err) {
+            console.log(err);
+            throw err;
+        }
+    },
 })
