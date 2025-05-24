@@ -1,5 +1,5 @@
 import React from 'react';
-import type { MenuProps } from 'antd';
+import { type MenuProps, Skeleton } from "antd";
 import { Dropdown, Space, Typography } from 'antd';
 import {useTranslation} from "react-i18next";
 
@@ -50,5 +50,9 @@ export const DropDownUi: React.FC = () => {
                 </Typography.Link>
             </Dropdown>
         );
+    } else {
+        return (
+          <Skeleton active />
+        )
     }
 }
