@@ -10,7 +10,6 @@ export const Navigation = () => {
             <StyledNavLink to="/cartoons">{t('header.nav.cartoons')}</StyledNavLink>
             <StyledNavLink to="/people">{t('header.nav.people')}</StyledNavLink>
             <StyledNavLink to="/tops">{t('header.nav.top')}</StyledNavLink>
-            <StyledNavLink to="/tops">{t('header.nav.top')}</StyledNavLink>
         </StyledNav>
     )
 }

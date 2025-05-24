@@ -7,7 +7,7 @@ export const StyledNav = styled.div`
     align-items: center;
 
     @media (max-width: ${({ theme }) => theme.breakpoints.tablet}) {
-        gap: 10px;
+        display: none;
     }
 
     @media (max-width: ${({ theme }) => theme.breakpoints.mobile}) {

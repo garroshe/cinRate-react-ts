@@ -1,6 +1,46 @@
 {
   "movies": [
-    { "id": 1, "title": "Inception" },
-    { "id": 2, "title": "Interstellar" }
+    {
+      "id": 1197306,
+      "adult": false,
+      "backdrop_path": "/fTrQsdMS2MUw00RnzH0r3JWHhts.jpg",
+      "genre_ids": [
+        28,
+        80,
+        53
+      ],
+      "original_language": "en",
+      "original_title": "A Working Man",
+      "overview": "Levon Cade left behind a decorated military career in the black ops to live a simple life working construction. But when his boss's daughter, who is like family to him, is taken by human traffickers, his search to bring her home uncovers a world of corruption far greater than he ever could have imagined.",
+      "popularity": 339.866,
+      "poster_path": "/6FRFIogh3zFnVWn7Z6zcYnIbRcX.jpg",
+      "release_date": "2025-03-26",
+      "title": "A Working Man",
+      "video": false,
+      "vote_average": 6.657,
+      "vote_count": 937
+    },
+    {
+      "id": 950387,
+      "adult": false,
+      "backdrop_path": "/2Nti3gYAX513wvhp8IiLL6ZDyOm.jpg",
+      "genre_ids": [
+        10751,
+        35,
+        12,
+        14,
+        28
+      ],
+      "original_language": "en",
+      "original_title": "A Minecraft Movie",
+      "overview": "Four misfits find themselves struggling with ordinary problems when they are suddenly pulled through a mysterious portal into the Overworld: a bizarre, cubic wonderland that thrives on imagination. To get back home, they'll have to master this world while embarking on a magical quest with an unexpected, expert crafter, Steve.",
+      "popularity": 713.0295,
+      "poster_path": "/yFHHfHcUgGAxziP1C3lLt0q2T4s.jpg",
+      "release_date": "2025-03-31",
+      "title": "A Minecraft Movie",
+      "video": false,
+      "vote_average": 6.526,
+      "vote_count": 1397
+    }
   ]
 }
