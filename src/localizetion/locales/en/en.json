@@ -1,0 +1,12 @@
+{
+  "header": {
+    "watchlist": "Watchlist",
+    "nav": {
+      "movies": "Movies",
+      "cartoons": "Cartoons",
+      "series": "Series",
+      "people": "People",
+      "top": "Top 100"
+    }
+  }
+}

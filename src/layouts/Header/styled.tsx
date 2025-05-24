@@ -6,5 +6,5 @@ export const StyledHeader = styled.header`
     align-items: center;
     height: 58px;
     width: 100%;
-    background: rgb(26, 26, 26);
+    background: #1A1A1A;
 `
