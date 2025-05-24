@@ -18,4 +18,12 @@ export const StyledLabel = styled.h2`
 export const StyledRating = styled.span`
     font-size: 12px;
     color: #aaa;
+`;
+
+export const StyledDeleteIcon = styled.div`
+    position: absolute; 
+    right: -15px;
+    top: 10px;
+    color: #fff;
+    font-size: 20px;
 `
